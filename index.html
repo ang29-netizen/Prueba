@@ -1,272 +1,121 @@
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #333;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Music Fun</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
 
-header {
-    position: relative;
-}
+<body>
 
-header img {
-    display: block;
-    width: 100%;
-}
+    <header>
+        <img src="asstes/images/angel.jpg"
+            alt="z">
 
-header h1 {
-    position: absolute;
-    inset: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.3em;
-    font-size: clamp(20px, 5vw, 48px);
-    font-weight: 300;
-    color: white;
-}
+        <h1><span class= "suave" > PLAY </span> <span class= " fuerte " > MUSIC  </span> <span class= " suave " > FUN </span> </h1>
+    </header>
 
-header .suave {
-    opacity: 0.4;
-}
+    <main>
 
-header .fuerte {
-    font-weight: 500;
-}
+        <section>
+            <div>
+                <h2>
+                    <span>MUSIC.</span><br>
+                    FUN.<br>
+                    ENTERTAINMENT.
+                </h2>
 
-main section {
-    max-width: 1050px;
-    margin: auto;  
-    padding: 85px 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 80px;
-}
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
 
-main section img {
-    width: 250px;
-    height: 350px;
-    object-fit: cover;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
+                <button>GO THERE</button>
+            </div>
 
-main section div {
-    width: 100;
-    max-width: 440;
-}
+            <img src="asstes/images/matt.png"
+                alt=" a ">
+        </section>
 
-main section h2 {
-    font-size: 25px;
-    line-height: 1.4;
-    margin-bottom: 8px;
-}
+        <section>
+             <img src="asstes/images/wesley.png"
+             alt="b">
+             <div>
+                <h2>
+                    <span> LOUDER</span><br>
+                    LIKE IT WAS NEVER <br>
+                    BEEN BETTER.
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
 
-main section h2 span {
-    color: #ed5268;
-}
+                <button> GO THERE </button>
+             </div>
+        </section>
 
-main section p {
-    font-size: 17px;
-    line-height: 1.7;
-    margin-bottom: 15px;
-    max-width: 350px;
-}
+        <section>
+            <img src="asstes/images/raptis.png"
+            alt="c">
 
-button {
-    background: #f34e67;
-    color: white;
-    border: none;
-    border-radius: 25px;
-    padding: 10px 28px;
-    font-size: 9px;
-    cursor: pointer;
-}
+            <div>
+                <h2>
+                    SOUND VIBES <br>
+                    WITH COLORS.
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
 
+                <button> GO THERE</button>
+            </div>
+        </section>
 
-main section:nth-child(3) {
-    max-width: none;
-    min-height: 250px;
-    position: relative;
-    padding: 50px max(30px, calc((100% - 1050px) / 2 + 30px));
-    color: white;
-}
+    </main>
 
-main section:nth-child(3) img {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    filter: brightness(0.6);
-}
+    <footer>
+         <div>
+            <h4>MUSIC</h4>
+            <a href="#">Soundcloud</a>
+            <a href="#">Spotify</a>
+            <a href="#"> Music</a>
+            <a href="#"> Playlists</a>
+         </div>
 
-main section:nth-child(3) div {
-    grid-column: 2;
-    position: relative;
-}
+         <div>
+            <h4>ABOUT</h4>
+            <a href="#">Features</a>
+            <a href="#">Events</a>
+            <a href="#">Mmebership</a>
+            <a href="#">Experiences</a>
+         </div>
 
-footer {
-    background: linear-gradient(110deg, #ff4961, #f51c65);
-    color: white;
-    padding: 40px 10%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 30px;
-}
+         <div>
+            <h4>LINKS</h4>
+            <a href="#"> Contact</a>
+            <a href="#">Tutorials</a>
+            <a href="#"> Blog</a>
+            <a href="#">Information</a>
+         </div>
 
-footer h4 {
-    font-size: 10px;
-    margin-bottom: 15px;
-}
+         <div>
+            <h4>MORE</h4>
+            <a href="#">About</a>
+            <a href="#"> Support</a>
+            <a href="#"> Servicies</a>
+            <a href="#"> Gallery</a>
+         </div>
+         <p> ©️ 2026 Play Music. All righst reserved</p>
+    </footer>
 
-footer a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    font-size: 9px;
-    margin-bottom: 8px;
-}
-
-footer p {
-    width: 100%;
-    text-align: center;
-    font-size: 9px;
-    margin-top: 35px;
-}
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #333;
-}
-
-header {
-    position: relative;
-}
-
-header img {
-    display: block;
-    width: 100%;
-}
-
-header h1 {
-    position: absolute;
-    inset: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.3em;
-    font-size: clamp(20px, 5vw, 48px);
-    font-weight: 300;
-    color: white;
-}
-
-header .suave {
-    opacity: 0.4;
-}
-
-header .fuerte {
-    font-weight: 500;
-}
-
-main section {
-    max-width: 1050px;
-    margin: auto;  
-    padding: 85px 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 80px;
-}
-
-main section img {
-    width: 250px;
-    height: 350px;
-    object-fit: cover;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-main section div {
-    width: 100;
-    max-width: 440;
-}
-
-main section h2 {
-    font-size: 25px;
-    line-height: 1.4;
-    margin-bottom: 8px;
-}
-
-main section h2 span {
-    color: #ed5268;
-}
-
-main section p {
-    font-size: 17px;
-    line-height: 1.7;
-    margin-bottom: 15px;
-    max-width: 350px;
-}
-
-button {
-    background: #f34e67;
-    color: white;
-    border: none;
-    border-radius: 25px;
-    padding: 10px 28px;
-    font-size: 9px;
-    cursor: pointer;
-}
-
-
-main section:nth-child(3) {
-    max-width: none;
-    min-height: 250px;
-    position: relative;
-    padding: 50px max(30px, calc((100% - 1050px) / 2 + 30px));
-    color: white;
-}
-
-main section:nth-child(3) img {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    filter: brightness(0.6);
-}
-
-main section:nth-child(3) div {
-    grid-column: 2;
-    position: relative;
-}
-
-footer {
-    background: linear-gradient(110deg, #ff4961, #f51c65);
-    color: white;
-    padding: 40px 10%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-footer h4 {
-    font-size: 10px;
-    margin-bottom: 15px;
-}
-
-footer a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    font-size: 9px;
-    margin-bottom: 8px;
-}
-
-footer p {
-    width: 100%;
-    text-align: center;
-    font-size: 9px;
-    margin-top: 35px;
-}
+</body>
+</html>
